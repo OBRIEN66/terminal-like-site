@@ -1,8 +1,6 @@
 Terminal looking site
 ---
 
-Just an experiment, don't be quick to judge
+I'm planning on putting this on nicholasobrien.me
 
-It could look cool
-
-COULD. Don't be angry if it doesnt, I'm not good at making things pretty
+Big thanks to jquery and typed.js for making this work!

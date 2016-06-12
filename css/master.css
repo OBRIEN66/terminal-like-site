@@ -5,7 +5,9 @@ html {
     color: #FFF;
     background-color: #000;
 }
-
+.container {
+    padding: 10px, 10px, 10px, 10px;
+}
 .background-main {
     background-color: #000;
     color: #FFF;
@@ -23,9 +25,6 @@ span.blue {
     color: #0068FA;
 }
 
-input {
-    background-color: #000;
-    color: #FFF;
-    font-family: Courier New;
-    border-color: #000;
+a {
+    color: #00ED2F;
 }

@@ -4,19 +4,21 @@
         <meta charset="utf-8">
         <title>Nick O'Brien</title>
         <link rel="stylesheet" href="./css/master.css" media="screen" title="no title" charset="utf-8">
+        <script type="text/javascript" src="JavaScript/jquery.min.js"></script>
+        <script type="text/javascript" src="JavaScript/typed.min.js"></script>
+        <script type="text/javascript" src="JavaScript/typeCat.js"></script>
+        <script type="text/javascript" src="Javascript/typeTXT.js"></script>
     </head>
     <body>
-        <script type="text/javascript" src="./JavaScript/commandIO.js"></script>
-        <div class="background-main">
-            <div class="command-line">
-                <form action="index.html" onsubmit="return command()">
-                    <span class="green">root@nicholasobrien.me</span>:<span class="red">~</span><span class="blue">$ <input id="command" type="text" name="command" placeholder="cat nicholas.txt" autofocus="autofocus">
-                </form>
-            </div>
-            <div class="background-main" id="output">
+        <div class="container">
+            <div class="background-main">
+                <div class="command-line">
+                        <p><span class="green">root@nicholasobrien.me</span>:<span class="red">~</span><span class="blue">$ </span><span class="typeCat"></span></p>
+                </div>
+                <div class="background-main txt">
 
+                </div>
             </div>
         </div>
-
     </body>
 </html>

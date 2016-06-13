@@ -28,3 +28,6 @@ span.blue {
 a {
     color: #00ED2F;
 }
+ul {
+    list-style-type: none;
+}

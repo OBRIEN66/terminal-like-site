@@ -3,7 +3,8 @@ $(function(){
         strings: ["cat nicholas.txt"],
         typeSpeed: 0,
         contentType: "html",
-        cursorChar: "",
+        cursorChar: "|",
 
     })
+
 })

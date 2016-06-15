@@ -1,4 +1,11 @@
 $(function(){
+    $(".typeCat").typed({
+        strings: ["cat nicholas.txt"],
+        typeSpeed: 0,
+        contentType: "html",
+        cursorChar: "|",
+
+    })
     $(".text").typed({
         strings: ["^2000 Hi, I'm Nick. I'm a grade 10 student living in Toronto, Canada.<br><br>I like to row,"
         + " sail, and program.<br><br>I've put most of my projects on "
@@ -17,4 +24,5 @@ $(function(){
         cursorChar: "",
 
     })
+
 })

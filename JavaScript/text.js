@@ -1,6 +1,6 @@
 $(function(){
     $(".typeCat").typed({
-        strings: ["cat nicholas.txt"],
+        strings: ["^750cat nicholas.txt"],
         typeSpeed: 0,
         contentType: "html",
         cursorChar: "|",

@@ -5,12 +5,23 @@ html {
     color: #FFF;
     background-color: #000;
 }
+
 .container {
     padding: 10px, 10px, 10px, 10px;
 }
+
 .background-main {
     background-color: #000;
     color: #FFF;
+}
+
+.footer {
+    position: relative;
+    text-align: center
+}
+
+.feet {
+    position: fixed; bottom: 0; width:100%;
 }
 
 span.red {
@@ -28,6 +39,7 @@ span.blue {
 a {
     color: #00ED2F;
 }
+
 ul {
     list-style-type: none;
 }
@@ -38,18 +50,22 @@ ul {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
-    100% { opacity:1; }
+    100% { opacity:1;}
 }
+
 @-webkit-keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
 @-moz-keyframes blink{
     0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+    50% { opacity:0;}
+ 
+    100% { opacity:1;}
 }

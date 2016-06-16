@@ -21,7 +21,12 @@ html {
 }
 
 .feet {
-    position: fixed; bottom: 0; width:100%;
+    position: fixed;
+    bottom: 0; 
+    width:100%;
+    font-style: italic;
+    color: #9C9C9C;
+    font-size: 66%;
 }
 
 span.red {
